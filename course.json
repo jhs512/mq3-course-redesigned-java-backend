@@ -2,35 +2,15 @@
   "schema_version": 2,
   "id": "crs_0e63ca37-56b5-48ab-82f7-150e3987a0bf",
   "title": "자바 백엔드 과정",
-  "description": "Git과 자바의 원리를 작은 문제로 익혀요. 앱 구조와 테스트를 배우고 React·Tailwind를 가볍게 다뤄요.",
+  "description": "Bash로 파일을 다루고 Git과 자바의 원리를 작은 문제로 익혀요. 앱 구조와 테스트를 배우고 React·Tailwind를 가볍게 다뤄요.",
   "repository": "jhs512/mq3-course-redesigned-java-backend",
   "lessons": [
     {
-      "id": "lsn_dcf21651-492f-4fb7-a2d0-8f66a069285b",
-      "title": "Git · 내 파일이 기록이 되는 과정",
-      "repository": "jhs512/mq3-lesson-redesigned-git-first",
-      "revision": "git-first-1",
-      "sha256": "af77ab5f0a8e1b9a90e4e36dfc6c4a72e140a97d0c662cd2a021ced08146cafa",
-      "prerequisites": [],
-      "required": true,
-      "review_enabled": false
-    },
-    {
-      "id": "lsn_f08c6a95-6c9a-4b79-b7d6-d8c87d056f9c",
-      "title": "Git · 작업을 나누고 다시 합치는 과정",
-      "repository": "jhs512/mq3-lesson-redesigned-git-branch",
-      "revision": "git-branch-1",
-      "sha256": "223ec6371a46f67bed3d4df7cf745464afc2f7298968170a736b9cbbab8106ed",
-      "prerequisites": [],
-      "required": true,
-      "review_enabled": false
-    },
-    {
-      "id": "lsn_533917ea-656d-4fd5-b188-948363ec9b37",
-      "title": "공유 기록을 받고 비교하고 되돌려요",
-      "repository": "jhs512/mq3-lesson-redesigned-git-remote",
-      "revision": "git-remote-1",
-      "sha256": "72b002c010a48cfe361814e4d267734d1d485f7a04fa11ad4cfcb5f106e18120",
+      "id": "lsn_90255ce3-4694-488e-b60f-1836d10e77d8",
+      "title": "Bash · 파일과 폴더를 다루는 기본 명령",
+      "repository": "jhs512/mq3-lesson-redesigned-bash-basics",
+      "revision": "bash-basics-2",
+      "sha256": "2a7213bf7729d660c174cfbaee1ac69c077444d7e0484af86c186931e9a643b2",
       "prerequisites": [],
       "required": true,
       "review_enabled": false
@@ -39,8 +19,18 @@
       "id": "lsn_c68a89b9-f81c-41ca-9035-7d96e2fd7b18",
       "title": "자바 · 값이 계산되고 표시되는 과정",
       "repository": "jhs512/mq3-lesson-redesigned-java-values",
-      "revision": "java-values-1",
-      "sha256": "17740c1fc26f949237524da949a165b6a5c1372e2a4a36ffc6aec4207088c13f",
+      "revision": "java-values-2",
+      "sha256": "866d7a1db9d57e2b7e82270c1638a326dba43048aed26cdd95a6c17eb234815f",
+      "prerequisites": [],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "lsn_dcf21651-492f-4fb7-a2d0-8f66a069285b",
+      "title": "Git · 내 파일이 기록이 되는 과정",
+      "repository": "jhs512/mq3-lesson-redesigned-git-first",
+      "revision": "git-first-3",
+      "sha256": "9c10b622530a37e7f14306c3b5de74782a87306877d8fb9ef1d19576a84b0cb5",
       "prerequisites": [],
       "required": true,
       "review_enabled": false
@@ -49,8 +39,28 @@
       "id": "lsn_b9544574-6fff-4ba7-9412-bad6a933041e",
       "title": "자바 · 비교로 배송비를 고르는 과정",
       "repository": "jhs512/mq3-lesson-redesigned-java-conditions",
-      "revision": "java-conditions-1",
-      "sha256": "5a64bf37decb4119c7c9c27e4e2eef55f4107b782bdadf8a9817694199aed97f",
+      "revision": "java-conditions-2",
+      "sha256": "281af30fb3013da7db368e9ada1618e53ccae57a378962079685833cd4489e43",
+      "prerequisites": [],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "lsn_28cfb072-fc49-4fa0-b869-d36ba1bfb9dd",
+      "title": "Vim · 직접 편집하며 익히는 기본 조작",
+      "repository": "jhs512/mq3-lesson-redesigned-vim-basics",
+      "revision": "vim-basics-1",
+      "sha256": "58b74a6cea3e366e1cef1641fde7804985ebb67612ee838989db07dfa90aeb76",
+      "prerequisites": [],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "lsn_2a4d9041-b87a-401c-a0e8-6128415e6b2f",
+      "title": "자바 · 파일 하나를 실행하고 다시 빌드해요",
+      "repository": "jhs512/mq3-lesson-redesigned-java-launch",
+      "revision": "java-launch-2",
+      "sha256": "2864df4094a73b6229d7e14a7d01137ace681b22def3e38a7a08bd72a0572d46",
       "prerequisites": [],
       "required": true,
       "review_enabled": false
@@ -59,8 +69,18 @@
       "id": "lsn_8b99f28f-a9ba-48b1-b05b-bba079066989",
       "title": "자바 · 배열을 따라 가격을 더해요",
       "repository": "jhs512/mq3-lesson-redesigned-java-arrays",
-      "revision": "java-arrays-1",
-      "sha256": "167e7dda20c5de2815e5eac79fbcf554ebd6bf71eb6d79d3f0398c1d79c5b98e",
+      "revision": "java-arrays-2",
+      "sha256": "514d6b2d29bf328be61c8040c353f0cc2b50cbd1d668eab4458e34c3920b2b07",
+      "prerequisites": [],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "lsn_17cfb5cc-c313-4574-95ba-b0e989beefdd",
+      "title": "자바 · 실행할 때 값을 전달해요",
+      "repository": "jhs512/mq3-lesson-redesigned-java-arguments",
+      "revision": "java-arguments-2",
+      "sha256": "569e66b92700aa7f669c300f1bc26fb56694494afdcf37f5156fe0560481610c",
       "prerequisites": [],
       "required": true,
       "review_enabled": false
@@ -69,8 +89,18 @@
       "id": "lsn_a31124bd-4960-424b-b095-d8f6d1f5a6bc",
       "title": "자바 · 계산을 메서드로 나눠요",
       "repository": "jhs512/mq3-lesson-redesigned-java-methods",
-      "revision": "java-methods-1",
-      "sha256": "9ddfd450c945a0ef45ccb0db1cbef17830bfab20ae127732cd3d735f4e3e40e3",
+      "revision": "java-methods-2",
+      "sha256": "5c9ab16c568ded122d13c3b4b33a72c2a62a25234dd0b50bb55318a262d7561f",
+      "prerequisites": [],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "lsn_f08c6a95-6c9a-4b79-b7d6-d8c87d056f9c",
+      "title": "Git · 브랜치 기본: 작업을 나누고 합쳐요",
+      "repository": "jhs512/mq3-lesson-redesigned-git-branch",
+      "revision": "git-branch-5",
+      "sha256": "680a32037a5ced45717389b64571d78dfbb27e75f0c79fdb0bf12ed99b1b94f8",
       "prerequisites": [],
       "required": true,
       "review_enabled": false
@@ -79,8 +109,8 @@
       "id": "lsn_adb48fbe-fca5-40fc-a019-3e8a194630cb",
       "title": "자바 · 객체와 참조를 나눠 봐요",
       "repository": "jhs512/mq3-lesson-redesigned-java-references",
-      "revision": "java-references-1",
-      "sha256": "671074a2a423a05107e9bdc0cc7fadc6ff7438f9cf76ba50b3793324edeab5f2",
+      "revision": "java-references-2",
+      "sha256": "5089b91063e79b21061ea025bacaa165bd7f985f3bebf0259466a1d3df673749",
       "prerequisites": [],
       "required": true,
       "review_enabled": false
@@ -89,8 +119,8 @@
       "id": "lsn_f7020701-289b-408c-832a-baf0da83f17d",
       "title": "자바 · 객체의 값과 static을 나눠요",
       "repository": "jhs512/mq3-lesson-redesigned-java-static",
-      "revision": "java-static-1",
-      "sha256": "dc65e5dc23c012ffd1cb53120e9d895297da9d0a6e3643a38e27d820f95b136b",
+      "revision": "java-static-2",
+      "sha256": "ee80d54f563e8780a5210a96491b819868235b4f8522ee47df20b53a8ea6ae6f",
       "prerequisites": [],
       "required": true,
       "review_enabled": false
@@ -99,8 +129,8 @@
       "id": "lsn_ed4321cf-8e23-420a-92ff-1903f4138183",
       "title": "상태를 지키고 객체의 역할을 나눠요",
       "repository": "jhs512/mq3-lesson-redesigned-java-roles",
-      "revision": "java-roles-1",
-      "sha256": "03f3c89470f657993f3a9ddf7504000bc30789f939e01e972863c2065c5117ca",
+      "revision": "java-roles-2",
+      "sha256": "6552cd51aee4be723797726b767ec013cab6fa4b4e1c7213bb60b0b26ee83647",
       "prerequisites": [],
       "required": true,
       "review_enabled": false
@@ -109,18 +139,18 @@
       "id": "lsn_d6c4905a-8ebd-4d48-b1db-c3dc00451f82",
       "title": "주문 목록·태그·상품 수를 다뤄요",
       "repository": "jhs512/mq3-lesson-redesigned-java-collections",
-      "revision": "java-collections-1",
-      "sha256": "8fdcefdc1b2f799943ced2ad61ae9a53bbcab53256cd0fd05fad55494c80c363",
+      "revision": "java-collections-2",
+      "sha256": "51ea7dd08cd2a44af8f6c9616b50193761ddbd6fbd358620c9b052c7bb85ebb3",
       "prerequisites": [],
       "required": true,
       "review_enabled": false
     },
     {
       "id": "lsn_01d62ba5-a68f-4e28-990e-f1006da11050",
-      "title": "가격을 고르고 바꾸고 합산해요",
+      "title": "자바 스트림 · 가격을 고르고 바꾸고 합산해요",
       "repository": "jhs512/mq3-lesson-redesigned-java-streams",
-      "revision": "java-streams-1",
-      "sha256": "20a6ae388064ec2a22e6107d172a25fbcc4edf5d661b10328acdbd9af3914c68",
+      "revision": "java-streams-2",
+      "sha256": "c78d70c105096ebc3a5006527f71515bb631388ecc65f25791227dd48561313a",
       "prerequisites": [],
       "required": true,
       "review_enabled": false
@@ -129,8 +159,18 @@
       "id": "lsn_5dcde321-f446-425b-970b-b46839c2ca0c",
       "title": "글을 파일에 남기고 실패도 처리해요",
       "repository": "jhs512/mq3-lesson-redesigned-java-files",
-      "revision": "java-files-1",
-      "sha256": "29d7e1d743526dd3e15f74ee1b8f6b62a50fbde6ed6c6fe767ec4d9306ea4f4d",
+      "revision": "java-files-2",
+      "sha256": "9f412b0eed02c688b97e637411dc18b44c486429729192948fd6de0b716ce316",
+      "prerequisites": [],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "lsn_533917ea-656d-4fd5-b188-948363ec9b37",
+      "title": "공유 기록을 받고 비교하고 되돌려요",
+      "repository": "jhs512/mq3-lesson-redesigned-git-remote",
+      "revision": "git-remote-6",
+      "sha256": "4ae1ca00a95d963026c7a4476f7321869562dfde35e396e02ff37941df251687",
       "prerequisites": [],
       "required": true,
       "review_enabled": false
@@ -139,8 +179,8 @@
       "id": "lsn_9395c95d-624c-4314-9c25-5c0c883f6c91",
       "title": "같은 글 앱에서 추가·조회·수정·삭제를 연결해요",
       "repository": "jhs512/mq3-lesson-redesigned-java-crud",
-      "revision": "java-crud-1",
-      "sha256": "e0149cbe502cf7ef399db70098fb0038669c111a7d98a4492245d2eece2b5b81",
+      "revision": "java-crud-2",
+      "sha256": "d00c21e100fc117773e671fc60cf62a299667ce5019142277f8b4dcd49d135b7",
       "prerequisites": [],
       "required": true,
       "review_enabled": false
@@ -149,8 +189,28 @@
       "id": "lsn_4084edc3-e4ef-4157-b29a-4d553973a12e",
       "title": "배송비 변경을 작은 테스트로 검증해요",
       "repository": "jhs512/mq3-lesson-redesigned-java-testing",
-      "revision": "java-testing-1",
-      "sha256": "183fad3e832f40791eb29e6fac5716e68a56784f4cf0fcddf4dfa8b1448291e8",
+      "revision": "java-testing-2",
+      "sha256": "038f43eb49eb5450fb4b669d61957fe652c4f85521906e9bcc09fabbee2e3687",
+      "prerequisites": [],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "lsn_db18c8e2-b487-4a44-96e1-ed2974104c7e",
+      "title": "Git · 브랜치 심화: 갈라진 기록과 충돌을 해결해요",
+      "repository": "jhs512/mq3-lesson-redesigned-git-branch-advanced",
+      "revision": "git-branch-advanced-4",
+      "sha256": "c8c15080d083e878111005c7353f5001705f3a93bd67b58ae56f7fef521b2acd",
+      "prerequisites": [],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "lsn_9367a2b2-ad65-4842-8208-bf0fe5f40e1b",
+      "title": "GitHub · 실제 PR을 만들고 변경을 합쳐요",
+      "repository": "jhs512/mq3-lesson-redesigned-github-pr",
+      "revision": "github-pr-3",
+      "sha256": "6fd3788afdc7540bf6f53ceb0e6e1bbbd688febcf4b3066a2075d0c789053008",
       "prerequisites": [],
       "required": true,
       "review_enabled": false
@@ -159,18 +219,8 @@
       "id": "lsn_a49ea79e-f9d1-4112-ab8b-313108fb7aa9",
       "title": "요청을 나누고 계산의 규칙을 검증해요",
       "repository": "jhs512/mq3-lesson-redesigned-java-parser",
-      "revision": "java-parser-1",
-      "sha256": "0ce2e972acdfa0ffe5dc9fe8ac41ce71097f72637980bbd72438026ad61003e5",
-      "prerequisites": [],
-      "required": true,
-      "review_enabled": false
-    },
-    {
-      "id": "lsn_89492476-c7f2-45f2-a90d-feb8467e8f30",
-      "title": "AI가 만든 작은 React 화면을 읽고 고쳐요",
-      "repository": "jhs512/mq3-lesson-redesigned-java-react",
-      "revision": "java-react-1",
-      "sha256": "a36520d06ced28a3bdc08c02caf9b68e545d5deb44a542fa2eee191333d6e914",
+      "revision": "java-parser-2",
+      "sha256": "b114e0e9068a0840414edf206c4869751ac2526757b37544432685bcc7441267",
       "prerequisites": [],
       "required": true,
       "review_enabled": false
@@ -179,8 +229,18 @@
       "id": "lsn_cf9d7df0-158d-4398-b32b-783e7fe6198e",
       "title": "작은 Tailwind 화면의 배치를 읽고 고쳐요",
       "repository": "jhs512/mq3-lesson-redesigned-java-tailwind",
-      "revision": "java-tailwind-1",
-      "sha256": "26ce38c92ba4c7ecd88e07f2816a675cd266167f3e86ace4dec7d01e2b511811",
+      "revision": "java-tailwind-2",
+      "sha256": "6acda7473147a68a9e47ccc7afc9024c8ce5071ffbb0fc71b58d606c3c35addd",
+      "prerequisites": [],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "lsn_89492476-c7f2-45f2-a90d-feb8467e8f30",
+      "title": "AI가 만든 작은 React 화면을 읽고 고쳐요",
+      "repository": "jhs512/mq3-lesson-redesigned-java-react",
+      "revision": "java-react-2",
+      "sha256": "3b65f3e08d8ad8a491eed8d70bf291f5967f465d625a9b15027fcfcc4a1fbe8c",
       "prerequisites": [],
       "required": true,
       "review_enabled": false
@@ -188,11 +248,42 @@
   ],
   "change_history": [
     {
+      "at": "2026-10-21T19:53:34Z",
+      "summary": "Git 협업 이야기와 자바의 질문을 명확히 했어요.",
+      "reason": "명령을 쓰는 상황과 무엇을 답할지 분명히 보여줘요.",
+      "details": [
+        "브랜치 기본은 두 기능을 나누고 합치는 13단계예요.",
+        "GitHub 없는 협업은 정상 공유·전송 거절·충돌 해결을 직접 만드는 21단계예요.",
+        "실제 GitHub Flow는 두 팀원 역할로 진행해요. 첫 단계에서만 경고 후 새 회차를 시작해요.",
+        "자바 15수업의 선택형 112문항에 질문을 따로 표시해요.",
+        "기술별 묶음을 풀고 선수 경험과 난이도 순서로 수업을 섞었어요."
+      ]
+    },
+    {
+      "at": "2026-10-21T08:39:48Z",
+      "summary": "Git 실습을 쉬운 명령으로 다시 검수했어요.",
+      "reason": "일상적인 명령과 그래프로 상태를 이해해요.",
+      "details": [
+        "git branch의 별표와 git status의 안내를 읽어요.",
+        "부모 해시·충돌 필터·커밋 수를 뽑는 명령 대신 그래프를 확인해요.",
+        "문제의 목표와 고유 코드·완료 기록은 그대로예요."
+      ]
+    },
+    {
+      "at": "2026-10-21T08:16:40Z",
+      "summary": "Git 그래프로 분기와 병합 전후를 확인해요.",
+      "reason": "브랜치 이름과 커밋의 연결을 눈으로 비교해요.",
+      "details": [
+        "브랜치 기본·심화와 원격 수업에 그래프 조회를 추가했어요.",
+        "기존 문제 코드·정답 조건·완료 기록은 유지해요."
+      ]
+    },
+    {
       "at": "2026-10-19T04:33:45Z",
       "summary": "새 지침에 맞춘 독립 과정을 구성했어요.",
       "reason": "작은 문제를 풀며 원리를 이해하도록 다시 구성했어요.",
       "details": [
-        "18수업을 챕터·단원·스텝으로 구성했어요.",
+        "24수업을 챕터·단원·스텝으로 구성했어요.",
         "이전 과정과 학습 기록은 별도 저장소에 그대로 남아요.",
         "모든 수업은 추천 순서와 관계없이 자유롭게 열 수 있어요."
       ]
