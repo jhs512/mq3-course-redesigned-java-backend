@@ -474,8 +474,8 @@
       "id": "lsn_bfda9fed-08f1-40dd-b619-789901cc2dbe",
       "title": "H2 · 연결을 닫는 것과 프로그램을 끄는 것은 달라요",
       "repository": "jhs512/mq3-lesson-redesigned-h2-memory-file",
-      "revision": "h2-memory-file-1",
-      "sha256": "80a2c796d5350557a20ec17bbe076b9d8dd23ebc4c5f3a39170f529d3fc331bf",
+      "revision": "h2-memory-file-2",
+      "sha256": "999bd5fe7037c909226ed783f9bc0139af7dfeeb35648028695f2f53508bc783",
       "prerequisites": [
         "lsn_96408ebc-f2eb-43df-bf38-cc5f1a25c3af",
         "lsn_5dcde321-f446-425b-970b-b46839c2ca0c"
@@ -488,8 +488,8 @@
       "id": "lsn_1aedc033-4998-4854-9565-389de69b8cdf",
       "title": "JDBC · 코드와 데이터베이스 사이의 계약",
       "repository": "jhs512/mq3-lesson-redesigned-java-jdbc",
-      "revision": "java-jdbc-1",
-      "sha256": "800915de676b7d7f4ffe0243f882f7afa0227cfab2e3fcffbf0789c5d47595d4",
+      "revision": "java-jdbc-2",
+      "sha256": "78e1514cd12f96a628fdffeae8bf8f5fc02506b8b9a2ee009e09163875f5b9f7",
       "prerequisites": [
         "lsn_bfda9fed-08f1-40dd-b619-789901cc2dbe",
         "lsn_6fedb8a6-08a5-4406-a4ea-a0e12ed963a5"
@@ -567,6 +567,16 @@
     }
   ],
   "change_history": [
+    {
+      "at": "2026-10-26T05:31:29Z",
+      "summary": "DB 수업의 선수 개념과 연결·저장소·재실행 설명을 보강했어요.",
+      "reason": "기본 문법과 저장 원리를 직접 확인한 뒤 JDBC·트랜잭션으로 넘어가요.",
+      "details": [
+        "실제 DB 엔진에서 실행·채점한 수업만 게시해요.",
+        "기존 문제 ID와 학습 기록은 유지해요.",
+        "앱 설치 파일 배포와 별도로 수업 내용을 업데이트해요."
+      ]
+    },
     {
       "at": "2026-10-26T04:50:11Z",
       "summary": "Docker 첫 수업에 왜 필요한지와 pull·run부터 시작하는 CLI 실습 8개를 추가했어요.",
