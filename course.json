@@ -422,8 +422,8 @@
       "id": "lsn_96408ebc-f2eb-43df-bf38-cc5f1a25c3af",
       "title": "SQL 기초 · 행을 고르고 값을 바꾼다는 것",
       "repository": "jhs512/mq3-lesson-redesigned-sql-first",
-      "revision": "sql-first-1",
-      "sha256": "0ccbe155921000908e58c4e663cf06ccffaf12cd573d40a8d9f2b12bd35cbfc7",
+      "revision": "sql-first-2",
+      "sha256": "3bf5ff3e55e02faedbc1271ef49316aa15319068d822e2734a437a29652098f2",
       "prerequisites": [
         "lsn_84b8abf5-848d-4177-96df-69d8aca2cfea"
       ],
@@ -448,8 +448,8 @@
       "id": "lsn_84853a6b-7d79-46c8-bdfb-502c202f300d",
       "title": "JOIN·집계 · 사라진 행과 늘어난 합계를 찾아요",
       "repository": "jhs512/mq3-lesson-redesigned-sql-join-group",
-      "revision": "sql-join-group-1",
-      "sha256": "a8f9b0fd57eed88a7204703a3a0a8e484394cf8e6c4c0f35de3913402dd19c16",
+      "revision": "sql-join-group-2",
+      "sha256": "04e9cf5c4602cb4f341c55a3b0707699e9cdcdbcb8387ddf4b15225abcaf5d9a",
       "prerequisites": [
         "lsn_69a26a28-2c1c-4e78-93ce-45efd0de7e21"
       ],
@@ -567,6 +567,16 @@
     }
   ],
   "change_history": [
+    {
+      "at": "2026-10-26T05:38:34Z",
+      "summary": "SQL 기초를 행·열과 조회부터 표 만들기·데이터 변경까지 단계적으로 보강했어요.",
+      "reason": "기본 문법과 저장 원리를 직접 확인한 뒤 JDBC·트랜잭션으로 넘어가요.",
+      "details": [
+        "실제 DB 엔진에서 실행·채점한 수업만 게시해요.",
+        "기존 문제 ID와 학습 기록은 유지해요.",
+        "앱 설치 파일 배포와 별도로 수업 내용을 업데이트해요."
+      ]
+    },
     {
       "at": "2026-10-26T05:31:29Z",
       "summary": "DB 수업의 선수 개념과 연결·저장소·재실행 설명을 보강했어요.",
@@ -1288,18 +1298,19 @@
     },
     "lsn_96408ebc-f2eb-43df-bf38-cc5f1a25c3af": {
       "learn": [
-        "행·열·조건과 NULL의 의미를 구별해요. / 정렬과 집계의 결과 규칙을 명시해요. / 변경할 행을 제한하고 원본 데이터에서 검증해요."
+        "프로그램을 닫아도 남겨야 할 데이터에서 시작해 DB·SQL·표를 구별해요."
       ],
-      "challenge": "마지막 도전에서 여러 입력에도 데이터의 규칙을 지키세요.",
+      "challenge": "다른 상품은 보존하면서 팔린 상품 한 행의 재고만 차감하세요.",
       "scenario": [
-        "행과 값",
-        "결과의 규칙",
-        "실제 데이터 변경"
+        "한 행의 열을 읽고 WHERE와 ORDER BY를 나눠 익혀요.",
+        "행 수와 수량 합계를 구별해요.",
+        "표를 만들고 추가·수정·삭제해요.",
+        "새 연결에서 저장 결과를 읽고 키·관계의 의미로 연결해요."
       ],
       "constraints": [
-        "실제 MySQL 8.4 컨테이너를 실행해요. 실행마다 새 실습 DB예요."
+        "MySQL 8.4 실습 DB를 제공해요. 같은 문제의 재실행은 상태를 이어가고 제출 검사는 별도 준비 DB에서 해요. 호스트의 고정 DB 포트는 쓰지 않아요."
       ],
-      "question": "쿼리가 실행됐다는 것과 데이터가 올바르다는 것은 어떻게 다를까요?"
+      "question": "화면에 글자를 출력하는 것과 DB에 행을 저장하는 것은 어떻게 다를까요?"
     },
     "lsn_69a26a28-2c1c-4e78-93ce-45efd0de7e21": {
       "learn": [
