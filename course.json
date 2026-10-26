@@ -502,8 +502,8 @@
       "id": "lsn_85de96e6-a815-48da-b98a-c2a356fc6946",
       "title": "인덱스 · 답은 같은데 찾는 경로가 달라요",
       "repository": "jhs512/mq3-lesson-redesigned-sql-index-plan",
-      "revision": "sql-index-plan-1",
-      "sha256": "bbaca35ce93be4a89cb1957a29bb8050473c778d49145471c61311fbe5f41091",
+      "revision": "sql-index-plan-2",
+      "sha256": "0dd0520c6f2670f3afe6b16cacd8e95ebe1682c74ffc3bbc144a9361687740e8",
       "prerequisites": [
         "lsn_84853a6b-7d79-46c8-bdfb-502c202f300d"
       ],
@@ -1352,7 +1352,7 @@
         "조건에 맞춘 색인"
       ],
       "constraints": [
-        "실제 PostgreSQL 18 컨테이너를 실행해요. 실행마다 새 실습 DB예요."
+        "실제 PostgreSQL 18를 사용해요. 문제 진입 시 준비 SQL을 넣어요. 같은 문제를 다시 실행하면 변경 상태가 이어져요. 제출 검사는 별도 준비 DB에서 해요."
       ],
       "question": "쿼리가 실행됐다는 것과 데이터가 올바르다는 것은 어떻게 다를까요?"
     },
