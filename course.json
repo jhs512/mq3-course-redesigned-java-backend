@@ -461,8 +461,8 @@
       "id": "lsn_6fedb8a6-08a5-4406-a4ea-a0e12ed963a5",
       "title": "트랜잭션 · 절반만 끝난 이체를 막아요",
       "repository": "jhs512/mq3-lesson-redesigned-sql-transactions",
-      "revision": "sql-transactions-1",
-      "sha256": "cd54c4eda77e6c6cce7f760a1b84cca9eb19c7b829ddfad93a10c466d8c6c502",
+      "revision": "sql-transactions-2",
+      "sha256": "af5697454427c8ca64d00ee96f05ef5b28ae46f477caed7d9a38ac28dfe2d1c9",
       "prerequisites": [
         "lsn_69a26a28-2c1c-4e78-93ce-45efd0de7e21"
       ],
@@ -1367,7 +1367,7 @@
         "최종 이체"
       ],
       "constraints": [
-        "실제 PostgreSQL 18 컨테이너를 실행해요. 실행마다 새 실습 DB예요."
+        "실제 PostgreSQL 18를 사용해요. 문제 진입 시 준비 SQL을 넣어요. 같은 문제를 다시 실행하면 변경 상태가 이어져요. 제출 검사는 별도 준비 DB에서 해요."
       ],
       "question": "쿼리가 실행됐다는 것과 데이터가 올바르다는 것은 어떻게 다를까요?"
     },
