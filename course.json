@@ -435,8 +435,8 @@
       "id": "lsn_69a26a28-2c1c-4e78-93ce-45efd0de7e21",
       "title": "MySQL · 화면을 우회해도 데이터 규칙을 지켜요",
       "repository": "jhs512/mq3-lesson-redesigned-sql-tables-constraints",
-      "revision": "sql-tables-constraints-1",
-      "sha256": "763b90bfe4b5579d39d15ccbb74ae51b11194a9fed76989c67b775a16a891e0d",
+      "revision": "sql-tables-constraints-2",
+      "sha256": "3855187bfac697408088eadb1804b5c44860ace927dbe7b07d438ed4890e4de2",
       "prerequisites": [
         "lsn_96408ebc-f2eb-43df-bf38-cc5f1a25c3af"
       ],
@@ -1312,7 +1312,7 @@
         "최종 도전: 예약 저장소"
       ],
       "constraints": [
-        "실제 MySQL 8.4 컨테이너를 실행해요. 실행마다 새 실습 DB예요."
+        "실제 MySQL 8.4를 사용해요. 문제 진입 시 준비 SQL을 넣어요. 같은 문제를 다시 실행하면 변경 상태가 이어져요. 제출 검사는 별도 준비 DB에서 해요."
       ],
       "question": "쿼리가 실행됐다는 것과 데이터가 올바르다는 것은 어떻게 다를까요?"
     },
