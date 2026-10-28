@@ -68,8 +68,8 @@
       "id": "lsn_b9544574-6fff-4ba7-9412-bad6a933041e",
       "title": "자바 · 비교로 배송비를 고르는 과정",
       "repository": "jhs512/mq3-lesson-redesigned-java-conditions",
-      "revision": "java-conditions-7",
-      "sha256": "9196e21dd026a5bb5f615f4d4aac4bc05ca94c7ad130304a82821765e3832b60",
+      "revision": "java-conditions-8",
+      "sha256": "b95f287c47d31b16649810e9af4d300826091a85c91130f41e360a342d23f571",
       "prerequisites": [
         "lsn_c68a89b9-f81c-41ca-9035-7d96e2fd7b18"
       ],
