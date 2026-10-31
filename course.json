@@ -636,6 +636,32 @@
       "challenge_task": "stp_72bd6932-460d-47a4-823c-15bc21b83b98"
     },
     {
+      "id": "lsn_3daad124-c739-419c-b027-e002426874bb",
+      "title": "웹 화면 · HTML·CSS·JavaScript로 할 일 목록",
+      "repository": "jhs512/mq3-lesson-redesigned-web-todo-dom",
+      "revision": "web-todo-dom-1",
+      "sha256": "8ab940481b75ea6066268695b163df8e74847657bc885e06b7d6c8766812a26f",
+      "prerequisites": [],
+      "required": false,
+      "review_enabled": false,
+      "category": "frontend",
+      "challenge_task": "stp_b452894e-5a92-4a5d-a94a-3ad3694c92c1"
+    },
+    {
+      "id": "lsn_79634d29-244d-4cfa-853d-8376c9f187ee",
+      "title": "React · 같은 할 일 목록을 상태로 다시 만들어요",
+      "repository": "jhs512/mq3-lesson-redesigned-react-todo",
+      "revision": "react-todo-1",
+      "sha256": "b5bdbb27ea6a9bd79762cf5fc07767df8ff54241836437f134a96b224924068a",
+      "prerequisites": [
+        "lsn_3daad124-c739-419c-b027-e002426874bb"
+      ],
+      "required": false,
+      "review_enabled": false,
+      "category": "frontend",
+      "challenge_task": "stp_4758f2dd-740d-42d3-95da-2c57dd3944b7"
+    },
+    {
       "id": "lsn_cf9d7df0-158d-4398-b32b-783e7fe6198e",
       "title": "CSS에서 Tailwind까지 · 규칙과 배치를 이해해요",
       "repository": "jhs512/mq3-lesson-redesigned-java-tailwind",
@@ -665,6 +691,16 @@
     }
   ],
   "change_history": [
+    {
+      "at": "2026-10-31T14:40:58Z",
+      "summary": "HTML·CSS·JavaScript 할 일 목록과 같은 목록의 React 전환 수업 두 개를 더했어요.",
+      "reason": "사용자 지시: 순수 JavaScript로 만든 할 일 목록을 React로 바꿔 차이를 직접 느껴요.",
+      "details": [
+        "첫 수업은 태그·선택자·클릭과 DOM 변경을 하나씩 실행한 뒤, 자료와 목록·남은 수를 직접 맞춰요.",
+        "둘째 수업은 같은 화면·같은 검사로 그 목록을 React 상태로 옮겨요.",
+        "두 수업은 선택 수업이에요. 기존 수업의 버전·순서·선수 관계·완료 기록은 바뀌지 않아요."
+      ]
+    },
     {
       "at": "2026-10-30T13:30:49Z",
       "summary": "자바 · 값 수업의 마지막 도전을 무엇을 출력할지 바로 보이는 문제로 바꿨어요.",
@@ -1675,6 +1711,36 @@
         "각 문제는 제공한 파일과 별도의 로컬 GitLab 프로젝트에서 시작해요. 실제 Docker Runner가 제한된 Alpine 작업 컨테이너를 실행해요."
       ],
       "question": "내 컴퓨터에서 성공한 명령이 원격 작업에서도 성공하려면 무엇이 같아야 할까요?"
+    },
+    "lsn_3daad124-c739-419c-b027-e002426874bb": {
+      "learn": [
+        "HTML·CSS·JavaScript의 역할을 나누고 자료와 화면을 직접 맞춰요."
+      ],
+      "challenge": "삭제가 자료·목록·남은 수를 함께 바꾸는 할 일 목록을 완성해요.",
+      "scenario": [
+        "태그·선택자·클릭을 하나씩 실행해요.",
+        "할 일 배열과 목록·남은 수를 함께 맞춰요.",
+        "같은 글자의 할 일을 id로 구별해 지워요."
+      ],
+      "constraints": [
+        "한 파일 index.html을 실제 브라우저에서 실행해요. 저장·서버는 없어요."
+      ],
+      "question": "자료가 바뀔 때 화면의 어느 부분을 누가 고쳐야 할까요?"
+    },
+    "lsn_79634d29-244d-4cfa-853d-8376c9f187ee": {
+      "learn": [
+        "같은 할 일 목록을 React 상태로 옮기고 무엇이 달라지는지 비교해요."
+      ],
+      "challenge": "앞 수업과 같은 검사를 통과하는 React 할 일 목록을 완성해요.",
+      "scenario": [
+        "JSX와 map으로 자료에서 화면을 계산해요.",
+        "일반 변수와 상태, 새 배열과 이전 상태 함수를 클릭으로 비교해요.",
+        "id로 지울 대상을 고르고 같은 검사로 완성해요."
+      ],
+      "constraints": [
+        "앞 수업과 같은 화면·CSS에 고정된 React 19를 써요. 서버·DB는 없어요. React가 코드를 늘 줄이거나 빠르게 하지는 않아요."
+      ],
+      "question": "화면을 자료에서 계산하면 직접 맞추던 일 중 무엇이 사라지고 무엇이 남을까요?"
     }
   }
 }
